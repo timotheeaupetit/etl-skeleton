@@ -1,0 +1,8 @@
+.bsp/
+.idea/
+.vscode/
+
+target/
+
+*.lock
+*.tmp

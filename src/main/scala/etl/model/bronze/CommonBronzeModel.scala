@@ -14,6 +14,8 @@ trait CommonBronzeModel {
 
   def loadRawToProcess(): DataFrame = ???
 
+  def loadOptimized(): DataFrame = ???
+
   def transform(df: DataFrame): DataFrame
 
   def saveToOptimized(df: DataFrame): Unit = {

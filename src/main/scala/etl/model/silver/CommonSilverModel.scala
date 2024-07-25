@@ -11,6 +11,8 @@ trait CommonSilverModel {
 
   val silverSchema: StructType
 
+  def load(): DataFrame = ???
+
   def transform(df: DataFrame): DataFrame
 
   def saveToSilver(df: DataFrame): Unit = {
